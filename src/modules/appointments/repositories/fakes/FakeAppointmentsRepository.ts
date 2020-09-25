@@ -34,7 +34,7 @@ class AppointmentsRepository implements IAppointmentsRepository {
     return appointments;
   }
 
-  public async findAllInDayFromProvier({
+  public async findAllInDayFromProvider({
     provider_id,
     day,
     month,
