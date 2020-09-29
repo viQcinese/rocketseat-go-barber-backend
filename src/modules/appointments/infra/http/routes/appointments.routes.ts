@@ -20,7 +20,7 @@ appointmentsRouter.use(ensureAuthenticated);
 
 appointmentsRouter.post(
   '/',
-  // createAppointmentsValidation,
+  createAppointmentsValidation,
   appointmentsController.create,
 );
 
